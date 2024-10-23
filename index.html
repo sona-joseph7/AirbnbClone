@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+            <!-- Bootstrap Link -->
+            <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+            crossorigin="anonymous"
+          />
+          <!-- zomato icon -->
+           <link rel="icon" href="https://cdn.iconscout.com/icon/free/png-256/zomato-1937646-1937644.png">
+           <!-- csslink -->
+            <link rel="stylesheet" href="./style.css">
+                  <!-- fontawesome -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container">
+          <a class="navbar-brand" href="#"><img class="logo" src="https://logodownload.org/wp-content/uploads/2016/10/airbnb-logo-10-2048x645.png" alt=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Airbnb your place</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Sign up</a>
+              </li>
+          </div>
+        </div>
+      </nav>
+      <hr>
+
+      <div class= "body-page d-flex">
+          <div id="search" class=" w-25">
+            <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title fw-bold">Find places to stay on <br>Airbnb</h5>
+                  <p class="card-text text-secondary">Discover entire homes and rooms perfect for any trip.</p>
+                  <div class="card">
+                    <div class="card-body-input p-2">
+                      LOCATION <br><input type="text" class="input" placeholder="Anywhere" >
+                    </div>
+                </div>
+
+
+                <div class="card-two-input d-flex justify-content-evenly border rounded mt-2 ">
+                    <div class="card-body-input p-2">
+                      CHECK-IN <br><input type="DATE" class="input" placeholder="Add Date" >
+                    </div>
+                    <div class="card-body-input p-2" >
+                        CHECK-OUT <br><input type="date" class="input" placeholder="Add Date" >
+                        </div>
+                  </div>  
+
+
+                  <div class="card-two-input d-flex justify-content-evenly border rounded mt-2">
+                    <div class="card-body-input p-2 ">
+                      ADULTS <br>
+                      <select name="" id="dropdown">
+                        <option value="">1</option>
+                        <option value="">2</option>
+                        <option value="">3</option>
+                        <option value="">4</option>
+                        <option value="">5</option>
+                        <option value="">6</option>
+                        <option value="">7</option>
+                        <option value="">8</option>
+                        <option value="">9</option>
+                        <option value="">10</option>
+                      </select>
+                    </div>
+                    <div class="card-body-input p-2" >
+                        CHILDREN <br>
+                        <select name="" id="dropdown">
+                            <option value="">1</option>
+                            <option value="">2</option>
+                            <option value="">3</option>
+                            <option value="">4</option>
+                            <option value="">5</option>
+                            <option value="">6</option>
+                            <option value="">7</option>
+                            <option value="">8</option>
+                            <option value="">9</option>
+                            <option value="">10</option>
+                          </select>
+                        </div>
+                  </div>  
+
+                  <div class="d-grid gap-2 mt-2">
+                    <button class="btn btn-danger" type="button">Button</button>
+                  </div>
+
+
+                </div>
+              </div>
+          </div>
+          <div id="image">
+            <img class="img-fluid rounded" src="https://a0.muscache.com/im/pictures/9caaca2d-6892-4638-b675-6a879974f5ed.jpg?im_w=1440" alt="">
+        </div>
+      </div>
+
+      <!-- about us -->
+
+      <br><br><br><br>
+
+    <div class="container about-us d-flex justify-content-evenly">
+        <div class="card-2" >
+            <div class="card-body-2">
+                <i class="fa-solid fa-shield"></i><br><br>
+              <h5 class="card-title-2">Enjoy some flexibility</h5>
+              <p class="card-text-2">Stays with flexible cancellation make it easy to rebook if your plans change.</p>
+            </div>
+          </div>
+
+          <div class="card--2" >
+            <div class="card-body-2">
+                <i class="fa-solid fa-house"></i><br><br>
+              <h5 class="card-title-2">More than 7M active listings</h5>
+              <p class="card-text-2">Join more than 1 billion guests who've found getaways in over 220 countries and destinations.</p>
+            </div>
+          </div>
+
+          <div class="card-2">
+            <div class="card-body-2">
+                <i class="fa-solid fa-sliders"></i><br><br>
+                <h5 class="card-title-2">100+ filters for tailored stays</h5>
+              <p class="card-text-2">Pick your price range, the number of rooms you want and other key amenities to find the stay that fits your needs.</p>
+            </div>
+          </div>
+    </div>
+
+    <br><br><br><br>
+
+    <!-- Big, small, we have it all -->
+     <div class="container section-3">
+        <h2>Big, small, we have it all</h2>
+        <div class="card-3-div d-flex">
+            <div class="card-3">
+                <img class="card-3-img me-5" src="https://static.wixstatic.com/media/d2f9df_c3a7c46dc7904ae1847224a11cdf74a8~mv2.jpg/v1/fill/w_200,h_186,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/d2f9df_c3a7c46dc7904ae1847224a11cdf74a8~mv2.jpg" class="card-img-top" alt="...">
+                <div class="card-body-3">
+                  <button type="button" id="btn-3" class="btn-3 btn-outline-dark fw-bold">Houses ></button>
+                  <p>If you need extra space, get an entire place all to yourself.
+                </p>
+                </div>
+              </div>
+
+              <div class="card-3">
+                <img class="card-3-img " src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpIEDh7oWc8j2t-LuctsjK01JDHOC-mmLXs-uqf3j-EwXuX4hLBlVpU94XYP_qYqhsS8s&usqp=CAU" class="card-img-top" alt="...">
+                <div class="card-body-3">
+                    <button type="button" id="btn-3" class="btn-3 btn-outline-dark fw-bold">Flats ></button>
+                    <p>Stay in some of the most convenient locations with spaces in shared buildings.
+                  </p>
+                </div>
+              </div>
+
+              <div class="card-3" >
+                <img class="card-3-img" src="https://images.contentstack.io/v3/assets/bltb428ce5d46f8efd8/blt32f089a69c8e154f/609c377360ef647e3979d07b/StinsonBeach_22256187_Bedroom_1_JSL1_169crop.jpg?crop=56.31p,100p,x19.47p,y0&width=250&height=250&auto=webp" class="card-img-top" alt="...">
+                <div class="card-body-3">
+                    <button type="button" id="btn-3" class="btn-3 btn-outline-dark fw-bold">Rooms ></button>
+                    <p>Enjoy your own sleeping space and share a common area with others.
+                  </p>
+                </div>
+              </div>
+        </div>
+     </div>
+<br><br><br><br>
+
+
+
+     <!-- Family-friendly stays with full kitchens -->
+     <div class="container section-4">
+      <h2>Family-friendly stays with full kitchens</h2>
+      <h5>Prepare a feast for loved ones in these stays with kitchens and BBQ grills.</h5><br>
+
+      <div class="section-4-div d-flex">
+
+        <div class="card-4">
+          <img class="card-4-img me-5" src="https://a0.muscache.com/im/pictures/d1627a9c-a5ec-40e5-b1b8-2cf93199f2c4.jpg?im_w=720&im_format=avif" class="card-img-top" alt="...">
+          <div class="card-body-4">
+            <h6 id="s4">Flat in Tbilisi, Georgia</h6>
+            <h6 id="s4"><i class="fa-solid fa-star"></i>4.78(147)</h6>
+            <p>
+              Old Tbilisi 2BR Apt with Terrace .. <br>
+              2 queen beds2 queen beds <br>
+              10–15 Nov10–15 Nov <br>
+              <span class="fw-bold">₹6,275 per night</span> · ₹34,101 total 
+          </p>
+          </div>
+        </div>
+
+        <div class="card-4">
+          <img class="card-4-img me-5" src="https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6Mzk0MzYxODc%3D/original/4649ff48-65bb-4c76-ac11-e5cfc0765bc8.jpeg?im_w=720&im_format=avif" class="card-img-top" alt="...">
+          <div class="card-body-4">
+          <h6 id="s4">Villa in Kuala Lumpur,M..</h6>
+            <h6 id="s4"><i class="fa-solid fa-star"></i>4.9(67)</h6>
+            <p>
+              KL Staycation v Family & Friends,.. <br>
+              11 beds <br>
+              11–15 Nov10<br>
+              <span class="fw-bold">₹32,635 per night</span> · ₹1,34,101 total 
+          </p>
+          </div>
+        </div>
+
+
+        <div class="card-4">
+          <img class="card-4-img me-5" src="https://a0.muscache.com/im/pictures/8e56e368-8566-4e6d-919b-e0f076a0a42c.jpg?im_w=720&im_format=avif" class="card-img-top" alt="...">
+          <div class="card-body-4">
+            <h6 id="s4">Home in Hulu Langat, Ma.. </h6>
+            <h6 id="s4"><i class="fa-solid fa-star"></i>4.70(167)</h6>
+            <p>
+              Two Sungai Residence.. <br>
+              14 beds <br>
+              10–15 Nov10 <br>
+              <span class="fw-bold">₹60,275 per night</span> · ₹3,34,101 total 
+          </p>
+          </div>
+        </div>
+
+
+        <div class="card-4" id="btn-card">
+          <img class="card-4-img me-5" src="https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6ODcxMzg4MjI2MjYyNTAwNDEz/original/53ed3147-6c8c-4174-b9a2-8eb968e0c281.jpeg?im_w=720&im_format=avif" class="card-img-top" alt="...">
+          <div class="card-body-4 ">
+            <button type="button" class="btn btn-primary-" id="btn-4"
+        style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+  Guest Favourite
+</button>
+            <h6 id="s4">Pension in Hangyeong-o..</h6>
+            <h6 id="s4"><i class="fa-solid fa-star"></i>4.78(147)</h6>
+            <p>
+              600 pyeong private golden scent field vie.. <br>
+              3 beds <br>
+              17–22 Nov10 <br>
+              <span class="fw-bold">₹13,275 per night</span> · ₹65,101 total 
+          </p>
+          </div>
+        </div>
+      </div>
+     </div>
+
+     <br><br><br><br><br><br><br>
+     <div class="container">
+      <button type="button" class="btn btn-outline-dark fw-bold border-dark">Let's get Cooking</button>
+    </div>
+
+    <br><br><br>
+
+    <!-- Homes with refreshing pools -->
+    <div class="container section-4">
+      <h2>Homes with refreshing pools</h2>
+      <h5>Relax with your crew by the pool in stays with 2+ bedrooms.</h5><br>
+
+      <div class="section-4-div d-flex">
+
+        <div class="card-4" id="btn-card">
+          <img class="card-4-img me-5" src="https://a0.muscache.com/im/pictures/miso/Hosting-980193538711664916/original/7751128a-f0b7-4f67-95e7-ef3ee3b79ccf.jpeg?im_w=720&im_format=avif" class="card-img-top" alt="...">
+          <div class="card-body-4 ">
+            <button type="button" class="btn btn-primary-" id="btn-4"
+        style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+  Guest Favourite
+</button>
+            <h6 id="s4">Farm stay in Khora Bisal</h6>
+            <h6 id="s4"><i class="fa-solid fa-star"></i>4.6(17)</h6>
+            <p>
+              Nature's Haven Retreat w/ pool.. <br>
+              3 beds <br>
+              1–6 Nov10 <br>
+              <span class="fw-bold">₹6,275 per night</span> · ₹34,101 total 
+          </p>
+          </div>
+        </div>
+
+        <div class="card-4">
+          <img class="card-4-img me-5" src="https://a0.muscache.com/im/pictures/hosting/Hosting-54015193/original/1e247a84-bca1-4484-bb18-ebffeab6f0dc.jpeg?im_w=720&im_format=avif"class="card-img-top" alt="...">
+          <div class="card-body-4">
+            <h6 id="s4">Villa in Greater Noida</h6>
+            <h6 id="s4"><i class="fa-solid fa-star"></i>4.9(187)</h6>
+            <p>
+              Chanda House by Aadhvika.. <br>
+              7 beds <br>
+              1–6 Nov <br>
+              <span class="fw-bold">₹16,275 per night</span> · ₹94,101 total 
+          </p>
+          </div>
+        </div>
+
+
+        <div class="card-4">
+          <img class="card-4-img me-5" src="https://a0.muscache.com/im/pictures/miso/Hosting-1147177720802135985/original/90b53311-62bb-4be8-a1fb-1170f550cbaa.jpeg?im_w=720&im_format=avif" class="card-img-top" alt="...">
+          <div class="card-body-4">
+            <h6 id="s4">Farm stay in Jaipur</h6>
+            <h6 id="s4"><i class="fa-solid fa-star"></i>4.7(14)</h6>
+            <p>
+              L town farmhouse and resort.. <br>
+              4 double beds <br>
+              3-8 Nov <br>
+              <span class="fw-bold">₹9,275 per night</span> · ₹44,101 total 
+          </p>
+          </div>
+        </div>
+
+
+        <div class="card-4">
+          <img class="card-4-img me-5" src="https://a0.muscache.com/im/pictures/111e52e0-8a3a-4747-9a92-97d620eb11d8.jpg?im_w=720&im_format=avif" class="card-img-top" alt="...">
+          <div class="card-body-4">
+            <h6 id="s4">Farm stay in Gurugram</h6>
+            <h6 id="s4"><i class="fa-solid fa-star"></i>4.83(107)</h6>
+            <p>
+              Delightful farmhouse with pool &..
+               4 beds <br>
+              2–7 Nov <br>
+              <span class="fw-bold">₹4,825 per night</span> · ₹25,641 total 
+          </p>
+          </div>
+        </div>
+
+
+      </div>
+     </div>
+
+     <br><br><br><br><br><br><br>
+     <div class="container">
+      <button type="button" class="btn btn-outline-dark fw-bold border-dark">Keep it Chill</button>
+    </div>
+
+
+    <br><br><br>
+
+    <!-- Get specific with your favourite amenities -->
+     <div class="section-5">
+     <div class="container">
+      <br><br><br><br>
+        <h2>Get specific with your favourite amenities</h2>
+        <p class="fs-5">Choose from top features like these – and more – for a personalised stay.</p>
+        <br><br>
+
+       <div class="container btn-div-5 d-flex ">
+       <div class="btn-5-5">
+        <button type="button" class="btn btn-primary btn-lg ms-3 me-5 mb-3"><i class="fa-solid fa-water-ladder"></i>   Pool ></button>
+        <button type="button" class="btn  btn-primary btn-lg ms-3 me-5 mb-3"><i class="fa-solid fa-fire"></i>   Fireplace ></button>
+       </div>
+       <div class="btn-5-5">
+        <button type="button" class="btn btn-primary btn-lg me-5 mb-3"><i class="fa-solid fa-square-parking"></i>   Free parking ></button>
+        <button type="button" class="btn btn-primary btn-lg me-5 mb-3"><i class="fa-solid fa-tv"></i>   TV ></button>
+       </div>
+       <div class="btn-5-5">
+        <button type="button" class="btn btn-primary btn-lg me-5 mb-3"><i class="fa-solid fa-shirt"></i>   Washing machine ></button>
+        <button type="button" class="btn btn-primary btn-lg me-5 mb-3"><i class="fa-solid fa-temperature-three-quarters"></i>   Heating ></button>
+       </div>
+       <div class="btn-5-5">
+        <button type="button" class="btn btn-primary btn-lg  mb-3"><i class="fa-solid fa-snowflake"></i>   AC ></button>
+        <button type="button" class="btn btn-primary btn-lg  mb-3"><i class="fa-solid fa-utensils"></i>   Barbeque ></button>
+       </div>
+      </div>
+     </div>
+     <br><br><br><br>
+     </div>
+
+
+
+     <!-- Explore 60+ Airbnb Categories -->
+      <br><br><br>
+
+     <div class="container section-3">
+      <h2>Explore 60+ Airbnb Categories</h2>
+      <p class="fs-5">These are just a few collections grouped by style, location and nearby activities.</p>
+      <div class="card-3-div d-flex">
+          <div class="card-3">
+              <img class="card-3-img me-5" src="https://ik.imagekit.io/rainierwatch/tr:h-1000,cm-extract/blog/2021/11/cabinsMRNP-cedarpine.jpeg" class="card-img-top" alt="...">
+              <div class="card-body-3">
+                <button type="button" id="btn-3" class="btn-3 btn-outline-dark fw-bold">Cabins ></button>
+                <p>Cozy hideaways close to mother nature.
+              </p>
+              </div>
+            </div>
+
+            <div class="card-3">
+              <img class="card-3-img me-5" src="https://i.ytimg.com/vi/sTA13zWaniw/mqdefault.jpg" class="card-img-top" alt="...">
+              <div class="card-body-3">
+                  <button type="button" id="btn-3" class="btn-3 btn-outline-dark fw-bold">OMG! ></button>
+                  <p>Find anything from UFOs to submarines.
+
+                </p>
+              </div>
+            </div>
+
+            <div class="card-3" >
+              <img class="card-3-img" src="https://image.urlaubspiraten.de/1x1/image/upload/v1712142082/Impressions%20and%20Other%20Assets/b2908e38-aec5-4d3c-886b-24ea2d2af897_sanzjo.webp" class="card-img-top" alt="...">
+              <div class="card-body-3">
+                  <button type="button" id="btn-3" class="btn-3 btn-outline-dark fw-bold">Beachfront ></button>
+                  <p>Sought-after properties by the water's edge.
+
+                </p>
+              </div>
+            </div>
+      </div>
+   </div>
+
+<br><br><br><br>
+
+<!-- Your questions, answered -->
+ <div class="container section-6">
+    <div class="box">
+      <h1>Your questions, answered</h1>
+    </div>
+    <div class="box">
+      <div class="accordion accordion-flush" id="accordionFlushExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+              What is Airbnb and how does it work?
+            </button>
+          </h2>
+          <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">We verify personal profiles and listings to make sharing easy, enjoyable and safe for millions of Hosts and travellers worldwide. <span style="text-decoration: underline; cursor: pointer;">Find out more about Airbnb.</span></div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+              How do I use search filters?
+            </button>
+          </h2>
+          <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">It’s easy to use our search filters to only show the listings that have the accessibility features you need. Learn more about <span style="text-decoration: underline; cursor: pointer;">using search filters</span> and discover more <span style="text-decoration: underline; cursor: pointer;">flexible ways to search.</span></div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+              Do I need to meet my Host?
+            </button>
+          </h2>
+          <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Options like self check-in or booking an entire home allow you to interact with your Host mainly through in-app messaging – you can message them anytime if something comes up.</div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+              What if I need to cancel due to a problem with the listing or Host?
+            </button>
+          </h2>
+          <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">In most cases, you can resolve any issues directly by messaging your Host. If they can't help, simply contact Airbnb within 24 hours of discovering the issue. <span style="text-decoration: underline; cursor: pointer;">Learn more</span></div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+              Need more information?
+            </button>
+          </h2>
+          <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Visit our Help Centre to get additional answers to your questions. <span style="text-decoration: underline; cursor: pointer;">Learn more</span></div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+ </div>
+
+ <br><br><br>
+
+ <nav class="container" style=" --bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item fw-bold" ><a id="last" href="#">Airbnb</a></li>
+    <li class="breadcrumb-item active fw-bold" aria-current="page"><a id="last" href="#">Stays</a></li>
+    <li class="breadcrumb-item active" id="last" aria-current="page">India</li>
+  </ol>
+</nav>
+
+<br>
+<hr>
+
+<footer class="container">
+ <div class="footer">
+   <div class="footer-1 "> <p>© 2024 Airbnb, Inc.· Privacy · Terms · Sitemap · Company details</p></div>
+   
+      <div class="footer-2"><i class="fa-brands fa-facebook me-2" ></i><i class="fa-brands fa-square-twitter me-2"></i><i class="fa-brands fa-square-instagram"></i></div>
+      
+  
+ </div>
+</footer>
+
+
+
+
+
+
+
+
+
+
+</body>
+<!-- Bootstrap script -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</html>
